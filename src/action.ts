@@ -4,7 +4,7 @@
 import type { AddOperation, Operation } from "@warmhub/sdk-ts";
 import { clientFromEnv, homeRepo, splitRepo } from "./warmhub";
 
-const BBOX = { minLat: 36.8, maxLat: 39.7, minLon: -77.5, maxLon: -75.3 };
+const BBOX = { minLat: 33.5, maxLat: 39.7, minLon: -78.0, maxLon: -75.0 };
 const ERDDAP_BASE = "https://coastwatch.pfeg.noaa.gov/erddap/tabledap";
 // NDBC standard meteorological, hourly — includes water temp (wtmp) when instrumented.
 // See https://coastwatch.pfeg.noaa.gov/erddap/info/cwwcNDBCMet/

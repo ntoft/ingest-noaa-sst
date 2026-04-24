@@ -3520,7 +3520,7 @@ function splitRepo(repo) {
 }
 
 // src/action.ts
-var BBOX = { minLat: 36.8, maxLat: 39.7, minLon: -77.5, maxLon: -75.3 };
+var BBOX = { minLat: 33.5, maxLat: 39.7, minLon: -78, maxLon: -75 };
 var ERDDAP_BASE = "https://coastwatch.pfeg.noaa.gov/erddap/tabledap";
 var DATASET = "cwwcNDBCMet";
 function yesterdayIsoRange() {
